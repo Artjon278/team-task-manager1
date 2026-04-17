@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="sq">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Task Manager</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Task Manager</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Team Task Manager</h1>
-        <p>Organizo detyrat e ekipit</p>
-        <input type="text" id="taskInput" placeholder="Shkruaj detyrën këtu...">
-        <button id="addTaskBtn">Add Task</button>
-        <ul id="taskList"></ul>
-        <footer id="taskCount">Total tasks: 0</footer>
-    </div>
-    <script src="script.js"></script>
+<div class="app">
+  <h1>Detyrat</h1>
+  <div class="row">
+    <input id="taskInput" placeholder="Shkruaj detyrën...">
+    <button id="addTaskBtn">Shto</button>
+  </div>
+  <ul id="taskList"></ul>
+  <p>Totali: <span id="taskCount">0</span></p>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
+

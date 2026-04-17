@@ -1,78 +1,10 @@
-body {
-    background-color: #f0f0f0;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-}
 
-.container {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-.task-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-
-.task-input:focus {
-    outline: none;
-    border-color: #534AB7;
-    box-shadow: 0 0 5px rgba(83, 74, 183, 0.5);
-}
-
-.add-btn {
-    background-color: #534AB7;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 10px;
-}
-
-.add-btn:hover {
-    background-color: #3d3a8c;
-}
-
-.task-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-.task-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
-}
-
-.delete-btn {
-    background-color: #ffe6e6;
-    color: #d9534f;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.delete-btn:hover {
-    background-color: #ffcccc;
-}
-
-.completed {
-    text-decoration: line-through;
-    color: #888;
-}
+body{font-family:sans-serif;background:#f3f4f6;display:flex;justify-content:center;padding:40px}
+.app{background:#fff;padding:20px;border-radius:8px;width:340px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.row{display:flex;gap:6px;margin-bottom:12px}
+#taskInput{flex:1;padding:8px;border:1px solid #ccc;border-radius:4px}
+button{padding:8px 12px;background:#2563eb;color:#fff;border:0;border-radius:4px;cursor:pointer}
+ul{list-style:none;padding:0}
+li{display:flex;justify-content:space-between;padding:6px;border-bottom:1px solid #eee}
+li button{background:#ef4444;padding:2px 8px;font-size:12px}
+.done{text-decoration:line-through;color:#888}
