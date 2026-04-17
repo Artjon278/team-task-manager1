@@ -5,7 +5,9 @@ const taskList = document.getElementById('taskList');
 const taskCount = document.getElementById('taskCount');
 
 // Funksioni për të shtuar detyrën
+
 function addTask() { const text = document.getElementById("taskInput").value; console.log("Nxënësi 2 shtoi detyrën"); }t();
+
 }
 
 // Funksioni për të përditësuar numrin e detyrave
