@@ -1,0 +1,9 @@
+body{font-family:sans-serif;background:#f3f4f6;display:flex;justify-content:center;padding:40px}
+.app{background:#fff;padding:20px;border-radius:8px;width:340px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.row{display:flex;gap:6px;margin-bottom:12px}
+#taskInput{flex:1;padding:8px;border:1px solid #ccc;border-radius:4px}
+button{padding:8px 12px;background:#2563eb;color:#fff;border:0;border-radius:4px;cursor:pointer}
+ul{list-style:none;padding:0}
+li{display:flex;justify-content:space-between;padding:6px;border-bottom:1px solid #eee}
+li button{background:#ef4444;padding:2px 8px;font-size:12px}
+.done{text-decoration:line-through;color:#888}
